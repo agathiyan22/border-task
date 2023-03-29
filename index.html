@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>border</title>
+</head>
+<style>
+*{background-color:gray vh;}
+h1{
+color:#d3f702
+}.dotted{border:dotted}
+.dashed{border:dashed}
+.solid{border: 2px solid}
+.double{border:double}
+.groove{border:groove}
+.ridge{border:ridge}
+.inset{border:inset}
+.outset{border:outset}
+.none{border:none}
+.hidden{border-top: 2px solid hidden }
+
+h2{color:#139feb}
+.width{border:solid; border-width:8px}
+.mwidth{border:solid; border-width:medium}
+.dotwidth{border:dotted; border-width:4px}
+.thick{border:dotted; border-width:thick} 
+
+.colordotted{ border:dotted; border-color:red}
+.cdashed{border:dashed; border-color:#f7f302}
+.csolid{border:2px solid; border-color:rgb(2, 31, 247)}
+.cdouble{border:double; border-color: hsl(309°, 98%, 50%)}
+
+.sidesdotted{ border:double}
+.sdashed{border-style:solid dotted}
+.ssolid{border-style:dashed hidden double}
+.sdouble{border-style:solid dotted double solid}
+
+.shortdotted{border:2px dotted green}
+.shdouble{border-bottom:5px double red}
+.shsolid{border-right:3px solid blue}
+
+img{border-radius:75px;
+display:inline-block}
+
+</style>
+<body>
+<h1>CSS Border</h1>
+<hr>
+<h3>borders </h3>
+<h3>width </h3>
+<h3>color</h3>
+<h3>sides </h3>
+<h3>shorthand </h3>
+<h3>round border </h3>
+
+
+<hr>
+<h2>boredrs</h2>
+<p class="dotted">Dotted border</p>
+<p class="dashed">Dashed border</p>
+<p class="solid">solid border</p>
+<p class="double">Double border</p>
+<p class="groove">groove border The effect depends on the border-color value.</p>
+<p class="ridge">ridge border The effect depends on the border-color value</p>
+<p class="inset">inset border "</p>
+<p class="outset">outset border "</p>
+<p class="none">no border</p>
+<p class="hidden">hidden border</p>
+<hr>
+<h2>width</h2>
+<p class="width">8px border-width</p>
+<p class="mwidth">medium border-width</p>
+<p class="dotwidth">4px border-width</p>
+<p class="thick">thick border-width</p>
+<hr>
+<h2>color</h2>
+<p class="colordotted">Dotted border <b>normal color</b></p>
+<p class="cdashed">Dashed border<b>hex value</b></p>
+<p class="csolid">solid border<b>rgb value</b></p>
+<p class="cdouble">Double border<b>hsl value</p>
+<div style="background-color:pink">
+<p style="border:dashed;border-color:red yellow transparent  blue ; border-width:5px">nasuifbqcn hbfgqeuic dqieufhqe </p>
+</div>
+
+<hr>
+<h2>sides</h2>
+<p class="sidesdotted">border normal</p>
+<p class="sdashed"> border two sides</p>
+<p class="ssolid"> border three sides</p>
+<p class="sdouble"> border four sides</p>
+<hr>
+<h2>shorthand</h2>
+<p class="shortdotted">Cascading Style Sheets</p>
+<p class="shdouble">Cascading Style Sheets</p>
+<p class="shsolid">Cascading Style Sheets</p>
+<hr>
+<h2>round border<h2>
+<div>
+<img src="./image/round.jpg" width="300" height="300"></div>
+
+</body>
+
+</html>
